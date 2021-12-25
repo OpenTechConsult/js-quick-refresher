@@ -1,11 +1,17 @@
-// declare a variable
-var name = 'Sandro'
+// declare a constant variable with let
+const name = 'Sandro'
 
-// creat a number variable
-var age = 39
+// creat a number variable with let
+let age = 39
 
-// create a boolean variable
-var hasHobbies = true
+// create a constant boolean variable with const
+const hasHobbies = true
+
+// change the value of a the "name" variable (it should produce an error)
+// name = 'Alessandro'
+
+// But we can also change the value of the "age" variable
+age = 40
 
 // create or declare a function
 function summarizeUser(userName, userAge, userHasHobbies) {
